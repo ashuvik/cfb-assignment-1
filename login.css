@@ -1,0 +1,70 @@
+body{
+    background-color: #93B5C6;
+    margin: 0%;
+}
+
+.navbar {
+    overflow: hidden;
+    display: flex;
+    background-color: #082032;
+    position: fixed;
+    top: 0;
+    width: 100%; 
+  }
+  
+.navbar a {
+    display: block;
+    color: #A19882;
+    text-align: center;
+    padding: 20px 16px;
+    text-decoration: none;
+  }
+
+.navbar a:hover {
+    background: #506D84;
+    color: black;
+  }
+
+.logo{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+
+form {
+    margin-top: 100px;
+    border: 3px solid #f1f1f1;
+    border-radius: 25px;
+  }
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+
+
+button {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+
+button:hover {
+    opacity: 0.8;
+  }
+  
+
+.container {
+    padding: 20px;
+  }
+
